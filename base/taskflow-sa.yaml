@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: external-secrets
+  namespace: taskflow
+  annotations:
+    eks.amazonaws.com/role-arn: arn:aws:iam::500696805492:role/taskflow-external-secrets
