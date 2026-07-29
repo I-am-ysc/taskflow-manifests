@@ -8,6 +8,7 @@ spec:
   selector:
     app: taskflow-api
   ports:
-    - port: 80
+    - name: http
+      port: 80
       targetPort: 8000
       protocol: TCP
