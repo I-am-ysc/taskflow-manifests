@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: taskflow-api
-          image: 500696805492.dkr.ecr.ap-south-1.amazonaws.com/taskflow-api:v1.0.1
+          image: 500696805492.dkr.ecr.ap-south-1.amazonaws.com/taskflow-api:fc1969d
           ports:
             - containerPort: 8000
 
