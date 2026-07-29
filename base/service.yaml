@@ -3,6 +3,8 @@ kind: Service
 metadata:
   name: taskflow-api
   namespace: taskflow
+  labels:
+    app: taskflow-api
 spec:
   type: ClusterIP
   selector:
