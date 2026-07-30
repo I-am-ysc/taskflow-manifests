@@ -15,6 +15,9 @@ spec:
       labels:
         app: taskflow-api
     spec:
+      securityContext:
+        seccompProfile:
+          type: RuntimeDefault
       containers:
         - name: taskflow-api
           image: 500696805492.dkr.ecr.ap-south-1.amazonaws.com/taskflow-api:fc1969d
